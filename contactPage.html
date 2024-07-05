@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+
+        form input, form textarea{
+            width: 97%;
+            border: 0;
+            outline: none;
+            background: #D4F1F4;
+            padding: 15px;
+            margin: 15px 0;
+            color: #000000;
+            font-size: 18px;
+            border-radius: 6px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        #contacts {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            gap: 100px;
+            font-size: 100px;
+            color: #000000;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Jeanfranco Fung</h1>
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "aboutMePage.html">About me</a></li>
+            <li><a href = "projectPage.html">Projects</a></li>
+            <li><a href = "blogPage.html">Blog Page</a></li>
+            <li><a href = "contactPage.html">Contact Page</a></li>
+        </ul>
+    </div>
+
+    <form>
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message "></textarea>
+        <button class="btn" type="submit">Submit</button>
+    </form>
+
+    <div id="contacts">
+        <a href="https://github.com/jean03f"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+
+    <footer>
+        <hr>
+        <p>&copy; copyright reserved</p>
+    </footer>
+
+    
+</body>
+</html>
